@@ -1641,6 +1641,8 @@ void displayFunc( )
                      mfcc(0), mfcc(1), mfcc(2), mfcc(3), mfcc(4), mfcc(5), mfcc(6),
                      mfcc(7), mfcc(8), mfcc(9), mfcc(10), mfcc(11), mfcc(12) );
             fprintf( stdout, "\n" );
+// Change for whistle detection at http://www.ibm.com/developerworks/linux/library/os-whistle/
+fprintf( stdout, "\n");
         }
 
         // set color
@@ -1750,6 +1752,8 @@ void extract_buffer( )
                  mfcc(0), mfcc(1), mfcc(2), mfcc(3), mfcc(4), mfcc(5), mfcc(6),
                  mfcc(7), mfcc(8), mfcc(9), mfcc(10), mfcc(11), mfcc(12) );
         fprintf( stdout, "\n" );
+// Change for whistle detection at http://www.ibm.com/developerworks/linux/library/os-whistle/
+fprintf( stdout, "\n");
     }
 
     // file reading stuff

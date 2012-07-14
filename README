@@ -1,3 +1,6 @@
+This fork exists solely to insert the two changes listed at
+http://www.ibm.com/developerworks/linux/library/os-whistle/
+into the source.
 
 sndpeek: a real-time audio visualization tool (animated, 3D)
 
